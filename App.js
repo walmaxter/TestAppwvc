@@ -19,7 +19,7 @@ class HomeScreen extends React.Component {
     autocomplete:'https://maps.googleapis.com/maps/api/place/autocomplete/json?input=',
     sitio:'',
     parameter:'&inputtype=textquery&fields=formatted_address,name,geometry&key=',
-    key:'AIzaSyAdeC347m24SmuEOlHzCA3EX2xrtDY6kGE',
+    key:'',
     latitud:'',
     longitud:'',
     };
@@ -132,7 +132,7 @@ class DetailsScreen extends React.Component {
     buscasitio:'https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=',
       sitio:this.props.navigation.state.params.sitio,
       parameter:'&inputtype=textquery&fields=formatted_address,name,geometry&key=',
-      key:'AIzaSyAdeC347m24SmuEOlHzCA3EX2xrtDY6kGE',
+      key:'',
      marker: {
         latlng:{
           latitude:       null,
